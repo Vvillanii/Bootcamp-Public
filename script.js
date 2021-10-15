@@ -1,16 +1,11 @@
-var count = 1;
-var countElement = document.querySelector("#count");
+var animalImg = document.querySelector("#fav-animal");
 
-console.log(countElement);
+console.log(animalImg);
 
-function add1() {
-    count++;
-    countElement.innerText = "The count is " + count;
-    console.log(count);
+function pickCat() {
+    animalImg.src = "cat.png";
 }
 
-function subtract1() {
-    count--;
-    countElement.innerText = "The count is " + count;
-    console.log(count);
+function pickDog() {
+    animalImg.src = "dog.jpeg";
 }
