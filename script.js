@@ -1,7 +1,16 @@
-function addShadow(element) {
-    element.classList.add("shadow");
+var count = 1;
+var countElement = document.querySelector("#count");
+
+console.log(countElement);
+
+function add1() {
+    count++;
+    countElement.innerText = "The count is " + count;
+    console.log(count);
 }
 
-function removeShadow(element) {
-    element.classList.remove("shadow");
+function subtract1() {
+    count--;
+    countElement.innerText = "The count is " + count;
+    console.log(count);
 }

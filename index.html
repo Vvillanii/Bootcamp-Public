@@ -4,17 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Epic Counter</title>
     <link rel="stylesheet" href="./style.css">
-    <title>Hover Event</title>
+    
 </head>
 <body>
-    <h1>Adam Notes</h1>
-    <div class="row"> 
-        <div class="note" onmouseover="addShadow(this)" onmouseout="removeShadow(this)">I am a note</div>
-        <div class="note" onmouseover="addShadow(this)" onmouseout="removeShadow(this)">I am a note</div>
-        <div class="note" onmouseover="addShadow(this)" onmouseout="removeShadow(this)">I am a note</div>
-        <div class="note" onmouseover="addShadow(this)" onmouseout="removeShadow(this)">I am a note</div>
-    </div>
+    <p id="count">The count is 1</p>
+    <button onClick="add1()">+</button>
+    <button onClick="subtract1()">-</button> 
+    
     <script src="./script.js"></script>
 </body>
 </html>
