@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <div class="nav">
+        <h1 class="nav-title">Dojonary</h1>
+        <input class="search-bar" type="text" placeholder="Search..">
+        <button class="btn-1" onclick="login(this)">Login</button>
+    </div>  
+    <div class="container">
+        <div class="row">
+            <!-- left column -->
+            <div class="col-2">
+                <div class="user-card">
+                    <div class="card-left">
+                        <h1>ninja</h1>
+                        <h3><em>noun</em></h3>
+                        <p>Plural: <em>ninjas</em></p>
+                        <button class="btn-2" onclick="alert('Ninja was liked')">13 likes</button>
+                    </div>
+                    <div class="card-right">
+                        <p>A practitioner skilled in the <a href="url">Japanese</a> art of <a href="url">ninjutsu</a></p>
+                    </div>
+                </div>
+                <div class="user-card">
+                    <div class="card-left">
+                        <h1>ninja</h1>
+                        <h3><em>noun</em></h3>
+                        <p>Plural: <em>ninjas</em></p>
+                        <button class="btn-2" onclick="alert('Ninja was liked')">37 likes</button>
+                    </div>
+                    <div class="card-right">
+                        <p>A <a href="url">programmer</a> who breaks down problems with <a href="url">zen</a>-like focus</p>
+                    </div>
+                </div>
+            </div>
+            <!-- right column -->
+            <div class="col">
+                <div class="card">
+                    <h2>Dojonary is defined by YOU</h2>
+                    <button class="btn-3" onclick="hide(this)">Add Definition</button>
+                </div>
+            </div>  
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
