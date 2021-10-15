@@ -1,15 +1,7 @@
-/*function message() {
-    alert("Ninja was liked!");
-}*/
-
-function login(element) {
-    if(element.innerText == "Login") {
-        element.innerText = "Logout";
-    } else {
-        element.innerText = "Login";
-    }
+function addShadow(element) {
+    element.classList.add("shadow");
 }
 
-function hide(element) {
-    element.remove();
+function removeShadow(element) {
+    element.classList.remove("shadow");
 }
