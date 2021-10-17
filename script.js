@@ -1,11 +1,10 @@
-var animalImg = document.querySelector("#fav-animal");
+console.log("page loaded...");
 
-console.log(animalImg);
-
-function pickCat() {
-    animalImg.src = "cat.png";
+function playVideo(vid) {
+    vid.play();
 }
 
-function pickDog() {
-    animalImg.src = "dog.jpeg";
+function pauseVideo(vid) {
+    vid.pause();
+    vid.currentTime = 0;
 }
